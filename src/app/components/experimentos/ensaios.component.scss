@@ -1,0 +1,52 @@
+@import '../../../styles.scss';
+@import '../../../variables.scss';
+
+@media screen and (max-width: 767px) {
+    .section-center {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        max-width: 1024px;
+        margin: 0 auto;
+        overflow-x: hidden;
+
+        .section-experimentos {
+            display: block;
+            padding: 0 40px;
+
+            .section-text {
+                h2 {
+                    padding-bottom: 8px;
+                    border-bottom: 1px solid $text-primary-color;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .section-center {
+        height: 90vh;
+        flex-direction: column;
+        display: flex;
+        // justify-content: center;
+        max-width: 1024px;
+        margin: 0 auto;
+
+        .section-experimentos {
+            display: flex;
+            padding: 0 40px;
+
+            .section-text {
+                h2 {
+                    padding-bottom: 8px;
+                    border-bottom: 1px solid $text-primary-color;
+                    min-width: 1024px;
+                }
+
+            }
+        }
+
+
+    }
+}

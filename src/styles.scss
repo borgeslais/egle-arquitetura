@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    background-color: $background-color;
+}
+
+.title {
+    color: $text-primary-color;
+    font-size: 32px;
+
+    &-section {
+        padding-bottom: 8px;
+    }
+}
+
+.text {
+    color: $text-secondary-color;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+    font-weight: 400;
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
