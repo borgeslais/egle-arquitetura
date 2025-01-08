@@ -1,0 +1,94 @@
+@import '../../../../styles.scss';
+@import '../../../../variables.scss';
+@import '../ensaios.component.scss';
+
+@media screen and (max-width: 767px) {
+
+      .section-grid {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      }
+    }
+
+
+
+@media screen and (min-width: 1024px) {
+
+
+  .section-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(456px, 1fr));
+    gap: 3em;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .section-card {
+    display: flex;
+    flex-direction: column;
+
+    .card-header {
+      h3 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        padding-bottom: 8px;
+        border-bottom: 1px solid $text-primary-color;
+      }
+    }
+
+    .card-image {
+      margin: 1rem 0;
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+
+
+
+      img {
+        width: 500px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+
+    .card-body {
+      p {
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+      }
+    }
+
+    .card-footer {
+      // margin-left: 1em;
+      // margin-bottom: 1em;
+      margin-top: auto;
+
+
+      button {
+        cursor: pointer;
+        padding: 4px 8px;
+        background-color: $background-color;
+        filter: brightness(120%);
+        border-radius: 6px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: none;
+
+
+        &:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+
+        a {
+          text-decoration: none;
+          font-weight: bold;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

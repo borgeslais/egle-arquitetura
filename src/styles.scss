@@ -5,14 +5,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
+    font-size: 16px;
     background-color: $background-color;
 }
 
 .title {
     color: $text-primary-color;
-    font-size: 32px;
+    font-size: 2em;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.03em;
 
     &-section {
         padding-bottom: 8px;
@@ -21,10 +23,12 @@
 
 .text {
     color: $text-secondary-color;
-    font-size: 18px;
+    font-size: 1.1em;
     line-height: 1.6;
+    letter-spacing: 0.02em;
     text-align: left;
     font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .center {
