@@ -1,37 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import 'variables.scss';
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 16px;
-    background-color: $background-color;
+    background-color: #EBE9E6;
 }
 
-.title {
-    color: $text-primary-color;
-    font-size: 2em;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-weight: 300;
-    letter-spacing: 0.03em;
+// .title {
+//     color: $text-primary-color;
+//     font-size: 2em;
+//     font-family: 'Helvetica Neue', sans-serif;
+//     font-weight: 300;
+//     letter-spacing: 0.03em;
 
-    &-section {
-        padding-bottom: 8px;
-    }
-}
+//     &-section {
+//         padding-bottom: 8px;
+//     }
+// }
 
-.text {
-    color: $text-secondary-color;
-    font-size: 1.1em;
-    line-height: 1.6;
-    letter-spacing: 0.02em;
-    text-align: left;
-    font-weight: 400;
-    font-family: 'DM Sans', sans-serif;
-}
+// .text {
+//     color: $text-secondary-color;
+//     font-size: 1.1em;
+//     line-height: 1.6;
+//     letter-spacing: 0.02em;
+//     text-align: left;
+//     font-weight: 400;
+//     font-family: 'DM Sans', sans-serif;
+// }
 
-.center {
-    margin: 0 auto;
-    text-align: center;
-}
+// .small-text {
+//     color: $text-primary-color;
+//     font-size: 0.8em;
+//     line-height: 1.2;
+//     text-align: left;
+//     font-weight: 500;
+//     font-family: 'Helvetica Neue', sans-serif;
+// }
+
+// .center {
+//     margin: 0 auto;
+//     text-align: center;
+// }

@@ -17,7 +17,7 @@
       .section-text {
         h2 {
           padding-bottom: 8px;
-          border-bottom: 1px solid $text-primary-color;
+          // border-bottom: 1px solid $text-primary-color;
         }
       }
 
@@ -47,7 +47,7 @@
 
         h2 {
           padding-bottom: 8px;
-          border-bottom: 1px solid $text-primary-color;
+          // border-bottom: 1px solid $text-primary-color;
           min-width: 1024px;
         }
       }
@@ -94,7 +94,7 @@
             background-position: center;
             background-clip: text;
             -webkit-background-clip: text;
-            -webkit-text-fill-color: $text-primary-color;
+            // -webkit-text-fill-color: $text-primary-color;
             opacity: 0;
             transition: opacity 0.3s ease-in-out;
             pointer-events: none;

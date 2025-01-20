@@ -3,29 +3,25 @@
 
 @media screen and (max-width: 767px) {
     .section-center {
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-        max-width: 1024px;
-        margin: 0 auto;
-        overflow-x: hidden;
+        max-width: 90vw;
+
 
         .section-about {
             display: block;
-            padding: 0 40px;
 
             .section-text {
 
 
                 h2 {
                     padding-bottom: 8px;
-                    border-bottom: 1px solid $text-primary-color;
+                    // border-bottom: 1px solid $text-primary-color;
                 }
 
                 p {
                     margin-top: 32px;
                     text-align: justify;
-                    text-justify: inter-word;
+                    text-justify: auto;
+                    hyphens: auto;
                 }
 
                 .img-about {
@@ -43,21 +39,15 @@
     .section-center {
         height: 90vh;
         flex-direction: column;
-        display: flex;
+
         justify-content: center;
         max-width: 1024px;
         margin: 0 auto;
 
-        .section-about {
-            display: flex;
-            padding: 0 40px;
-
-            .section-text {
-                padding-left: 144px;
 
                 h2 {
                     padding-bottom: 8px;
-                    border-bottom: 1px solid $text-primary-color;
+                    // border-bottom: 1px solid $text-primary-color;
                 }
 
                 p {
@@ -67,7 +57,3 @@
                 }
             }
         }
-
-
-    }
-}
