@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         primary: '#6C584C',
         secondary: '#463F3A',
+        terciary: '#A4998A',
         light: '#EBE9E6',
       },
       fontFamily: {
@@ -29,6 +30,9 @@ module.exports = {
         narrow: '0.02em',
         wide: '0.03em',
       },
+      backgroundSize: {
+        '120%': '120%'
+      },
     },
   },
   plugins: [
@@ -36,18 +40,33 @@ module.exports = {
       const newUtilities = {
         '.heading-title': {
           fontFamily: 'Helvetica Neue, sans-serif',
-          fontSize: '2em',
+          fontSize: 'clamp(20px, 3.125vw, 32px)',
+          fontWeight: 300,
+          letterSpacing: '0.03em',
+          color: '#6C584C',
+        },
+        '.hero-title': {
+          fontFamily: 'Helvetica Neue, sans-serif',
+          fontSize: 'clamp(16px, 3.125vw, 32px)',
           fontWeight: 300,
           letterSpacing: '0.03em',
           color: '#6C584C',
         },
         '.body-text': {
           fontFamily: 'DM Sans, sans-serif',
-          fontSize: '1.1em',
+          fontSize: 'clamp(14px, 1.72vw, 20px)',
           fontWeight: 400,
           lineHeight: '1.6',
           letterSpacing: '0.02em',
           color: '#463F3A',
+        },
+        '.body-description': {
+          fontFamily: 'DM Sans, sans-serif',
+          fontSize: 'clamp(14px, 1.52vw, 20px)',
+          fontWeight: 400,
+          lineHeight: '1.6',
+          letterSpacing: '0.02em',
+          color: '#A4998A',
         },
       };
 
