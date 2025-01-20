@@ -9,8 +9,9 @@ module.exports = {
       colors: {
         primary: '#6C584C',
         secondary: '#463F3A',
-        terciary: '#A4998A',
-        light: '#EBE9E6',
+        tertiary: '#c2bab4',
+        'primary-light': '#EBE9E6',
+        'secondary-light': '#ececec',
       },
       fontFamily: {
         title: ['DM Sans', 'sans-serif'],
@@ -47,7 +48,7 @@ module.exports = {
         },
         '.hero-title': {
           fontFamily: 'Helvetica Neue, sans-serif',
-          fontSize: 'clamp(16px, 3.125vw, 32px)',
+          fontSize: 'clamp(28px, 3.125vw, 32px)',
           fontWeight: 300,
           letterSpacing: '0.03em',
           color: '#6C584C',

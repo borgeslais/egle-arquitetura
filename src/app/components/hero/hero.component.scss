@@ -2,9 +2,7 @@
 @import '../../../variables.scss';
 
 
-  .section-center {
-    max-width: 90vw;
-  }
+
   .hero {
     background-image: url("/assets/bg-hero.png");
     // background-size: contain;
@@ -16,10 +14,7 @@
   }
 
 @media screen and (min-width: 1024px) {
-  .section-center {
-    max-width: 1024px;
 
-  }
     .hero {
       // background-image: url("/assets/bg-hero.png");
       // background-size: contain;
